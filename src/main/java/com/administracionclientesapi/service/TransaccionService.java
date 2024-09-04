@@ -62,7 +62,7 @@ public class TransaccionService {
                 .orElseThrow(() -> new RecursoNoEncontradoException("Cuenta no encontrada"));
         cuenta.setSaldo(cuenta.getSaldo() + transaccionDTO.getMonto());
         cuentaRepository.save(cuenta);
-        logger.info("Consignación de {} realizada en la cuenta con id {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId());
+        logger.debug("Consignación de {} realizada en la cuenta con id {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId());
         return registrarTransaccion(transaccionDTO, cuenta);
     }
 
@@ -76,7 +76,7 @@ public class TransaccionService {
         }
         cuenta.setSaldo(cuenta.getSaldo() - transaccionDTO.getMonto());
         cuentaRepository.save(cuenta);
-        logger.info("Retiro de {} realizado en la cuenta con id {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId());
+        logger.debug("Retiro de {} realizado en la cuenta con id {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId());
         return registrarTransaccion(transaccionDTO, cuenta);
 
     }
@@ -102,7 +102,7 @@ public class TransaccionService {
 
         actualizarSaldos(transaccion);
         transaccionRepository.save(transaccion);
-        logger.info("Transferencia de {} realizada desde la cuenta {} hacia la cuenta {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId(), transaccionDTO.getCuentaDestinoId());
+        logger.debug("Transferencia de {} realizada desde la cuenta {} hacia la cuenta {}", transaccionDTO.getMonto(), transaccionDTO.getCuentaOrigenId(), transaccionDTO.getCuentaDestinoId());
         return transaccion;
     }
 
@@ -112,11 +112,12 @@ public class TransaccionService {
         transaccion.setMonto(transaccionDTO.getMonto());
         transaccion.setTipoTransaccion(transaccionDTO.getTipoTransaccion());
         transaccion.setFecha(LocalDateTime.now());
-
+        logger.debug("Registro de transacción cuenta con id {}", transaccionDTO.getCuentaOrigenId());
         return transaccionRepository.save(transaccion);
     }
 
     private void actualizarSaldos(Transaccion transaccion) {
+
         Cuenta cuentaOrigen = transaccion.getCuentaOrigen();
         Cuenta cuentaDestino = transaccion.getCuentaDestino();
 
@@ -140,6 +141,7 @@ public class TransaccionService {
         movimientoRepository.save(movimientoCredito);
 
         cuentaDestino.setSaldo(cuentaDestino.getSaldo() + transaccion.getMonto());
+        logger.debug("Actualizando saldos para cuenta origen id {} y cuenta destino {}",cuentaOrigen.getId(), cuentaDestino.getId());
         cuentaRepository.save(cuentaDestino);
 
     }

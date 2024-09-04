@@ -33,7 +33,6 @@ public class Cliente {
     private LocalDateTime fechaCreacion;
     private LocalDateTime fechaModificacion;
 
-    // Getters y Setters
 }
 
 

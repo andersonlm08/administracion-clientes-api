@@ -33,7 +33,6 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 
 	implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
-	//compileOnly 'org.projectlombok:lombok:1.18.20'
 	annotationProcessor group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
 
 	//driver de conexion a base de datos postgres
@@ -42,12 +41,8 @@ dependencies {
 	//herramienta de de desarrollo
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
-	//para hacer test unitarios
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testImplementation 'io.projectreactor:reactor-test'
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	testImplementation 'org.mockito:mockito-core'
-
 }
 
 tasks.named('test') {

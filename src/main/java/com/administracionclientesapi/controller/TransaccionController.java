@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TransaccionController {
 
     private final TransaccionService transaccionService;
-
     public TransaccionController(TransaccionService transaccionService) {
         this.transaccionService = transaccionService;
     }

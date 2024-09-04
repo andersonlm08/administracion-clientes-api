@@ -20,7 +20,6 @@ public class TransaccionMapper {
         transaccion.setId(dto.getId());
         transaccion.setTipoTransaccion(dto.getTipoTransaccion());
         transaccion.setMonto(dto.getMonto());
-        // Las relaciones con Cuenta deben ser manejadas en el servicio, no en el mapper
         return transaccion;
     }
 }

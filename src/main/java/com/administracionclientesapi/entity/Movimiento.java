@@ -35,5 +35,4 @@ public class Movimiento {
     @JoinColumn(name = "transaccion_id", nullable = false)
     private Transaccion transaccion;
 
-    // Getters y Setters
 }

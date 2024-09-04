@@ -10,6 +10,8 @@ import com.administracionclientesapi.repository.CuentaRepository;
 import com.administracionclientesapi.states.EstadoCuenta;
 import com.administracionclientesapi.states.TipoCuenta;
 import com.administracionclientesapi.util.ValidadorUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -19,6 +21,7 @@ import java.util.Random;
 @Service
 public class CuentaService {
 
+    private static final Logger logger = LoggerFactory.getLogger(CuentaService.class);
     private final CuentaRepository cuentaRepository;
 
     private final ClienteRepository clienteRepository;
@@ -44,6 +47,7 @@ public class CuentaService {
         }
         cuenta.setCliente(cliente);
         Cuenta cuentaGuardada = cuentaRepository.save(cuenta);
+        logger.debug("Creando cuenta con id {}", cuentaDTO.getClienteId());
         return CuentaMapper.toDTO(cuentaGuardada);
     }
 
@@ -54,6 +58,7 @@ public class CuentaService {
         ValidadorUtil.validarSaldoParaCancelarCuenta(cuenta);
         cuenta.setEstadoCuenta(estadoCuenta);
         cuenta.setFechaModificacion(LocalDateTime.now());
+        logger.debug("Actualizando estado cuenta con id {}", id);
         cuentaRepository.save(cuenta);
     }
 

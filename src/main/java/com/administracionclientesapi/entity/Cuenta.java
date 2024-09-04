@@ -39,7 +39,6 @@ public class Cuenta {
     @JoinColumn(name = "cliente_id")
     private Cliente cliente;
 
-    // Getters y Setters
 }
 
 

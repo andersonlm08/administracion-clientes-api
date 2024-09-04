@@ -38,6 +38,6 @@ public class Transaccion {
 
     @OneToMany(mappedBy = "transaccion", cascade = CascadeType.PERSIST)
     private List<Movimiento> movimientos;
-    // Getters y Setters
+
 }
 

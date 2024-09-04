@@ -38,7 +38,7 @@ public class ClienteService {
         cliente.setFechaCreacion(LocalDateTime.now());
         cliente.setFechaModificacion(LocalDateTime.now());
         Cliente clienteGuardado = clienteRepository.save(cliente);
-        logger.info("Registro de cliente con id de {}", clienteGuardado.getId());
+        logger.debug("Registro de cliente con id de {}", clienteGuardado.getId());
         return ClienteMapper.toDTO(clienteGuardado);
     }
 
@@ -55,7 +55,7 @@ public class ClienteService {
         cliente.setFechaNacimiento(clienteDTO.getFechaNacimiento());
 
         Cliente clienteActualizado = clienteRepository.save(cliente);
-        logger.info("Actualización de cliente con id de {}", id);
+        logger.debug("Actualización de cliente con id de {}", id);
         return ClienteMapper.toDTO(clienteActualizado);
     }
 
@@ -66,10 +66,10 @@ public class ClienteService {
             logger.warn("Intento de eliminar cliente con id {} que tiene cuentas asociadas.", clienteId);
             throw new ClienteRelacionadoException("No se puede eliminar el cliente porque tiene cuentas asociadas.");
         }
-        logger.info("Eliminando cliente con id {}", clienteId);
+        logger.debug("Eliminando cliente con id {}", clienteId);
         Cliente cliente = clienteRepository.findById(clienteId)
                 .orElseThrow(() -> new RecursoNoEncontradoException("Cliente no encontrado"));
-        logger.info("Cliente con id {} eliminado exitosamente.", clienteId);
+        logger.debug("Cliente con id {} eliminado exitosamente.", clienteId);
         clienteRepository.delete(cliente);
     }
 
