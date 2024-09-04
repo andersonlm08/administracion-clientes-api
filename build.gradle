@@ -5,7 +5,7 @@ plugins {
 }
 
 
-group = 'com.example'
+group = 'com.administracionclientesapi'
 version = '0.0.1-SNAPSHOT'
 
 java {
@@ -18,6 +18,13 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation('org.springframework.boot:spring-boot-starter-webflux')
+
+	//documentacion de la API
+	implementation 'org.springdoc:springdoc-openapi-ui:1.6.14'
+	implementation 'io.swagger.core.v3:swagger-annotations:2.2.10'
+
+	//limitar transacciones
+	implementation 'com.github.vladimir-bukhtoyarov:bucket4j-core:7.5.0'
 
 	//log
 	implementation 'org.springframework.boot:spring-boot-starter-logging'
@@ -40,6 +47,7 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.mockito:mockito-core'
+
 }
 
 tasks.named('test') {
