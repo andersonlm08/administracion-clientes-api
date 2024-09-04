@@ -1,13 +1,14 @@
 package com.administracionclientesapi.service;
 
-import com.administracionclientesapi.dto.CuentaDTO;
-import com.administracionclientesapi.entity.Cliente;
-import com.administracionclientesapi.entity.Cuenta;
-import com.administracionclientesapi.exeption.RecursoNoEncontradoException;
-import com.administracionclientesapi.repository.ClienteRepository;
-import com.administracionclientesapi.repository.CuentaRepository;
-import com.administracionclientesapi.states.EstadoCuenta;
-import com.administracionclientesapi.states.TipoCuenta;
+import com.administracionclientesapi.application.dto.CuentaDTO;
+import com.administracionclientesapi.application.service.CuentaService;
+import com.administracionclientesapi.domain.entity.Cliente;
+import com.administracionclientesapi.domain.entity.Cuenta;
+import com.administracionclientesapi.domain.exeption.RecursoNoEncontradoException;
+import com.administracionclientesapi.domain.repository.ClienteRepository;
+import com.administracionclientesapi.domain.repository.CuentaRepository;
+import com.administracionclientesapi.domain.states.EstadoCuenta;
+import com.administracionclientesapi.domain.states.TipoCuenta;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

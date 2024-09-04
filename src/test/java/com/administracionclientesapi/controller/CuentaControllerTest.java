@@ -1,9 +1,10 @@
 package com.administracionclientesapi.controller;
 
-import com.administracionclientesapi.dto.CuentaDTO;
-import com.administracionclientesapi.dto.EstadoCuentaDTO;
-import com.administracionclientesapi.service.CuentaService;
-import com.administracionclientesapi.states.EstadoCuenta;
+import com.administracionclientesapi.adapter.controller.CuentaController;
+import com.administracionclientesapi.application.dto.CuentaDTO;
+import com.administracionclientesapi.application.dto.EstadoCuentaDTO;
+import com.administracionclientesapi.application.service.CuentaService;
+import com.administracionclientesapi.domain.states.EstadoCuenta;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;

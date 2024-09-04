@@ -1,8 +1,9 @@
 package com.administracionclientesapi.controller;
 
-import com.administracionclientesapi.dto.ClienteDTO;
-import com.administracionclientesapi.exeption.GlobalExceptionHandler;
-import com.administracionclientesapi.service.ClienteService;
+import com.administracionclientesapi.adapter.controller.ClienteController;
+import com.administracionclientesapi.application.dto.ClienteDTO;
+import com.administracionclientesapi.domain.exeption.GlobalExceptionHandler;
+import com.administracionclientesapi.application.service.ClienteService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

@@ -1,8 +1,9 @@
 package com.administracionclientesapi.controller;
 
-import com.administracionclientesapi.dto.TransaccionDTO;
-import com.administracionclientesapi.service.TransaccionService;
-import com.administracionclientesapi.states.TipoTransaccion;
+import com.administracionclientesapi.adapter.controller.TransaccionController;
+import com.administracionclientesapi.application.dto.TransaccionDTO;
+import com.administracionclientesapi.application.service.TransaccionService;
+import com.administracionclientesapi.domain.states.TipoTransaccion;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

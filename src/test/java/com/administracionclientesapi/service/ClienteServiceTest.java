@@ -5,12 +5,13 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-import com.administracionclientesapi.dto.ClienteDTO;
-import com.administracionclientesapi.entity.Cliente;
-import com.administracionclientesapi.exeption.ClienteRelacionadoException;
-import com.administracionclientesapi.exeption.RecursoNoEncontradoException;
-import com.administracionclientesapi.repository.ClienteRepository;
-import com.administracionclientesapi.repository.CuentaRepository;
+import com.administracionclientesapi.application.dto.ClienteDTO;
+import com.administracionclientesapi.application.service.ClienteService;
+import com.administracionclientesapi.domain.entity.Cliente;
+import com.administracionclientesapi.domain.exeption.ClienteRelacionadoException;
+import com.administracionclientesapi.domain.exeption.RecursoNoEncontradoException;
+import com.administracionclientesapi.domain.repository.ClienteRepository;
+import com.administracionclientesapi.domain.repository.CuentaRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -24,7 +25,6 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.*;
 
 public class ClienteServiceTest {
 

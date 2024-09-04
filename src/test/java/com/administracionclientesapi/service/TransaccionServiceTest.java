@@ -1,14 +1,15 @@
 package com.administracionclientesapi.service;
 
-import com.administracionclientesapi.dto.TransaccionDTO;
-import com.administracionclientesapi.entity.Cuenta;
-import com.administracionclientesapi.entity.Transaccion;
-import com.administracionclientesapi.exeption.RecursoNoEncontradoException;
-import com.administracionclientesapi.exeption.TransaccionException;
-import com.administracionclientesapi.repository.CuentaRepository;
-import com.administracionclientesapi.repository.MovimientoRepository;
-import com.administracionclientesapi.repository.TransaccionRepository;
-import com.administracionclientesapi.states.TipoTransaccion;
+import com.administracionclientesapi.application.dto.TransaccionDTO;
+import com.administracionclientesapi.application.service.TransaccionService;
+import com.administracionclientesapi.domain.entity.Cuenta;
+import com.administracionclientesapi.domain.entity.Transaccion;
+import com.administracionclientesapi.domain.exeption.RecursoNoEncontradoException;
+import com.administracionclientesapi.domain.exeption.TransaccionException;
+import com.administracionclientesapi.domain.repository.CuentaRepository;
+import com.administracionclientesapi.domain.repository.MovimientoRepository;
+import com.administracionclientesapi.domain.repository.TransaccionRepository;
+import com.administracionclientesapi.domain.states.TipoTransaccion;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
