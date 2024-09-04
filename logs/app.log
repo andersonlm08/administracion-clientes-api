@@ -1,0 +1,214 @@
+2024-09-04 08:16:02 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Starting AdministracionClientesApiApplication using Java 11.0.2 on DESKTOP-1LCD7PN with PID 18684 (C:\Desarrollo\prueba tecnica\administracion-clientes-api\build\classes\java\main started by Anderson López in C:\Desarrollo\prueba tecnica\administracion-clientes-api)
+2024-09-04 08:16:02 [restartedMain] DEBUG c.a.AdministracionClientesApiApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-09-04 08:16:02 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-04 08:16:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04 08:16:02 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04 08:16:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 08:16:03 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60 ms. Found 4 JPA repository interfaces.
+2024-09-04 08:16:03 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 08:16:03 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-09-04 08:16:03 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-04 08:16:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-04 08:16:04 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-04 08:16:04 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-09-04 08:16:04 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-04 08:16:04 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:16:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-04 08:16:05 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9090
+2024-09-04 08:16:05 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Started AdministracionClientesApiApplication in 3.812 seconds (JVM running for 4.601)
+2024-09-04 08:24:00 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:24:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-04 08:24:00 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-04 08:24:07 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Starting AdministracionClientesApiApplication using Java 11.0.2 on DESKTOP-1LCD7PN with PID 22568 (C:\Desarrollo\prueba tecnica\administracion-clientes-api\build\classes\java\main started by Anderson López in C:\Desarrollo\prueba tecnica\administracion-clientes-api)
+2024-09-04 08:24:07 [restartedMain] DEBUG c.a.AdministracionClientesApiApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-09-04 08:24:07 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-04 08:24:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04 08:24:07 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04 08:24:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 08:24:08 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2024-09-04 08:24:08 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 08:24:08 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-09-04 08:24:08 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-04 08:24:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-04 08:24:09 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-04 08:24:09 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-09-04 08:24:09 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-04 08:24:09 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:24:10 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-04 08:24:10 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9090
+2024-09-04 08:24:10 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Started AdministracionClientesApiApplication in 3.317 seconds (JVM running for 4.708)
+2024-09-04 08:24:58 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:24:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-04 08:24:58 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-04 08:25:01 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Starting AdministracionClientesApiApplication using Java 11.0.2 on DESKTOP-1LCD7PN with PID 10136 (C:\Desarrollo\prueba tecnica\administracion-clientes-api\build\classes\java\main started by Anderson López in C:\Desarrollo\prueba tecnica\administracion-clientes-api)
+2024-09-04 08:25:01 [restartedMain] DEBUG c.a.AdministracionClientesApiApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-09-04 08:25:01 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-04 08:25:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04 08:25:01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04 08:25:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 08:25:02 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 55 ms. Found 4 JPA repository interfaces.
+2024-09-04 08:25:02 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 08:25:02 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-09-04 08:25:02 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-04 08:25:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-04 08:25:03 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-04 08:25:03 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-09-04 08:25:03 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-04 08:25:03 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:25:04 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-04 08:25:04 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8443
+2024-09-04 08:25:04 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Started AdministracionClientesApiApplication in 3.579 seconds (JVM running for 4.42)
+2024-09-04 08:25:33 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:25:33 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63484
+2024-09-04 08:25:33 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:25:33 [reactor-http-nio-3] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:25:33 [reactor-http-nio-3] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] ERROR c.a.a.security.RateLimiterFilter - Se esta bleoqueando la API administracion de clientes por exceso de solicitudes
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:26 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:26 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:26 [reactor-http-nio-5] ERROR c.a.a.security.RateLimiterFilter - Se esta bleoqueando la API administracion de clientes por exceso de solicitudes
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:27 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:27 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:27 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:27 [reactor-http-nio-5] ERROR c.a.a.security.RateLimiterFilter - Se esta bleoqueando la API administracion de clientes por exceso de solicitudes
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: https://localhost:8443/cuentas/1
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:63809
+2024-09-04 08:27:27 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:27:27 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: GET
+2024-09-04 08:27:27 [reactor-http-nio-5] ERROR c.a.a.security.RateLimiterFilter - Se esta bleoqueando la API administracion de clientes por exceso de solicitudes
+2024-09-04 08:28:33 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:28:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-04 08:28:33 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-04 08:28:48 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Starting AdministracionClientesApiApplication using Java 11.0.2 on DESKTOP-1LCD7PN with PID 22196 (C:\Desarrollo\prueba tecnica\administracion-clientes-api\build\classes\java\main started by Anderson López in C:\Desarrollo\prueba tecnica\administracion-clientes-api)
+2024-09-04 08:28:48 [restartedMain] DEBUG c.a.AdministracionClientesApiApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-09-04 08:28:48 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-04 08:28:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04 08:28:48 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04 08:28:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 08:28:49 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 53 ms. Found 4 JPA repository interfaces.
+2024-09-04 08:28:50 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 08:28:50 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-09-04 08:28:50 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-04 08:28:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-04 08:28:50 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-04 08:28:50 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-09-04 08:28:51 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-04 08:28:51 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:28:52 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-04 08:28:52 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9090
+2024-09-04 08:28:52 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Started AdministracionClientesApiApplication in 4.071 seconds (JVM running for 4.888)
+2024-09-04 08:29:03 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes
+2024-09-04 08:29:03 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64105
+2024-09-04 08:29:03 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:29:03 [reactor-http-nio-3] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:29:03 [reactor-http-nio-3] DEBUG org.hibernate.SQL - insert into tbl_cliente (apellido, correo_electronico, fecha_creacion, fecha_modificacion, fecha_nacimiento, nombres, numero_identificacion, tipo_identificacion) values (?, ?, ?, ?, ?, ?, ?, ?)
+2024-09-04 08:29:03 [reactor-http-nio-3] DEBUG c.a.a.service.ClienteService - Registro de cliente con id de 4
+2024-09-04 08:30:34 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes
+2024-09-04 08:30:34 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64230
+2024-09-04 08:30:34 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:30:34 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:32:24 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:32:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-04 08:32:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-04 08:32:28 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Starting AdministracionClientesApiApplication using Java 11.0.2 on DESKTOP-1LCD7PN with PID 22896 (C:\Desarrollo\prueba tecnica\administracion-clientes-api\build\classes\java\main started by Anderson López in C:\Desarrollo\prueba tecnica\administracion-clientes-api)
+2024-09-04 08:32:28 [restartedMain] DEBUG c.a.AdministracionClientesApiApplication - Running with Spring Boot v2.7.17, Spring v5.3.30
+2024-09-04 08:32:28 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-04 08:32:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-04 08:32:28 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-04 08:32:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 08:32:29 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2024-09-04 08:32:29 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 08:32:29 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2024-09-04 08:32:30 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-09-04 08:32:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-04 08:32:30 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-04 08:32:30 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2024-09-04 08:32:30 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-09-04 08:32:30 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 08:32:31 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-09-04 08:32:31 [restartedMain] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9090
+2024-09-04 08:32:31 [restartedMain] INFO  c.a.AdministracionClientesApiApplication - Started AdministracionClientesApiApplication in 3.228 seconds (JVM running for 4.757)
+2024-09-04 08:32:38 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes
+2024-09-04 08:32:38 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64541
+2024-09-04 08:32:38 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:32:38 [reactor-http-nio-3] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:33:24 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes
+2024-09-04 08:33:24 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64541
+2024-09-04 08:33:24 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:33:24 [reactor-http-nio-3] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:33:24 [reactor-http-nio-3] DEBUG org.hibernate.SQL - insert into tbl_cliente (apellido, correo_electronico, fecha_creacion, fecha_modificacion, fecha_nacimiento, nombres, numero_identificacion, tipo_identificacion) values (?, ?, ?, ?, ?, ?, ?, ?)
+2024-09-04 08:33:24 [reactor-http-nio-3] DEBUG c.a.a.service.ClienteService - Registro de cliente con id de 5
+2024-09-04 08:33:35 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes
+2024-09-04 08:33:35 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64541
+2024-09-04 08:33:35 [reactor-http-nio-3] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:33:35 [reactor-http-nio-3] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:34:41 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/cuentas/1/estado
+2024-09-04 08:34:41 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64854
+2024-09-04 08:34:41 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:34:41 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: PUT
+2024-09-04 08:34:41 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:35:19 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/transacciones
+2024-09-04 08:35:19 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64854
+2024-09-04 08:35:19 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:35:19 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:35:20 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:35:20 [reactor-http-nio-5] DEBUG c.a.a.service.TransaccionService - Consignación de 200.0 realizada en la cuenta con id null
+2024-09-04 08:35:20 [reactor-http-nio-5] DEBUG c.a.a.service.TransaccionService - Registro de transacción cuenta con id null
+2024-09-04 08:35:20 [reactor-http-nio-5] DEBUG org.hibernate.SQL - insert into tbl_transaccion (cuenta_destino_id, cuenta_origen_id, fecha, monto, tipo_transaccion) values (?, ?, ?, ?, ?)
+2024-09-04 08:35:20 [reactor-http-nio-5] DEBUG org.hibernate.SQL - update tbl_cuenta set cliente_id=?, estado_cuenta=?, exentagmf=?, fecha_creacion=?, fecha_modificacion=?, numero_cuenta=?, saldo=?, tipo_cuenta=? where id=?
+2024-09-04 08:35:54 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/transacciones
+2024-09-04 08:35:54 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64854
+2024-09-04 08:35:54 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: POST
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as id1_1_0_, cuenta0_.cliente_id as cliente_9_1_0_, cuenta0_.estado_cuenta as estado_c2_1_0_, cuenta0_.exentagmf as exentagm3_1_0_, cuenta0_.fecha_creacion as fecha_cr4_1_0_, cuenta0_.fecha_modificacion as fecha_mo5_1_0_, cuenta0_.numero_cuenta as numero_c6_1_0_, cuenta0_.saldo as saldo7_1_0_, cuenta0_.tipo_cuenta as tipo_cue8_1_0_, cliente1_.id as id1_0_1_, cliente1_.apellido as apellido2_0_1_, cliente1_.correo_electronico as correo_e3_0_1_, cliente1_.fecha_creacion as fecha_cr4_0_1_, cliente1_.fecha_modificacion as fecha_mo5_0_1_, cliente1_.fecha_nacimiento as fecha_na6_0_1_, cliente1_.nombres as nombres7_0_1_, cliente1_.numero_identificacion as numero_i8_0_1_, cliente1_.tipo_identificacion as tipo_ide9_0_1_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cuenta0_.id=?
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - insert into tbl_transaccion (cuenta_destino_id, cuenta_origen_id, fecha, monto, tipo_transaccion) values (?, ?, ?, ?, ?)
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - insert into tbl_movimiento (cuenta_id, fecha, monto, tipo_movimiento, transaccion_id) values (?, ?, ?, ?, ?)
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - insert into tbl_movimiento (cuenta_id, fecha, monto, tipo_movimiento, transaccion_id) values (?, ?, ?, ?, ?)
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG c.a.a.service.TransaccionService - Actualizando saldos para cuenta origen id 1 y cuenta destino 2
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG c.a.a.service.TransaccionService - Transferencia de 200.0 realizada desde la cuenta 1 hacia la cuenta 2
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - update tbl_cuenta set cliente_id=?, estado_cuenta=?, exentagmf=?, fecha_creacion=?, fecha_modificacion=?, numero_cuenta=?, saldo=?, tipo_cuenta=? where id=?
+2024-09-04 08:35:54 [reactor-http-nio-5] DEBUG org.hibernate.SQL - update tbl_cuenta set cliente_id=?, estado_cuenta=?, exentagmf=?, fecha_creacion=?, fecha_modificacion=?, numero_cuenta=?, saldo=?, tipo_cuenta=? where id=?
+2024-09-04 08:36:25 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Request URI: http://localhost:9090/clientes/1
+2024-09-04 08:36:25 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - Client IP: /0:0:0:0:0:0:0:1:64854
+2024-09-04 08:36:25 [reactor-http-nio-5] INFO  c.a.a.security.RateLimiterFilter - User-Agent: PostmanRuntime/7.41.2
+2024-09-04 08:36:25 [reactor-http-nio-5] DEBUG c.a.a.security.RateLimiterFilter - HTTP Method: DELETE
+2024-09-04 08:36:25 [reactor-http-nio-5] DEBUG org.hibernate.SQL - select cuenta0_.id as col_0_0_ from tbl_cuenta cuenta0_ left outer join tbl_cliente cliente1_ on cuenta0_.cliente_id=cliente1_.id where cliente1_.id=? limit ?
+2024-09-04 08:36:25 [reactor-http-nio-5] WARN  c.a.a.service.ClienteService - Intento de eliminar cliente con id 1 que tiene cuentas asociadas.
